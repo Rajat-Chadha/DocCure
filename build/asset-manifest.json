@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "./static/css/main.700eab63.css",
+    "main.js": "./static/js/main.b72574a2.js",
+    "static/media/final_Trim.mp4": "./static/media/final_Trim.10350d8135d03b437471.mp4",
+    "static/media/p3.png": "./static/media/p3.5c01516fb85b26952aa5.png",
+    "static/media/p1.png": "./static/media/p1.f50db3b190cdb8bdf5b2.png",
+    "static/media/p2.png": "./static/media/p2.a34c8646d906ee233720.png",
+    "static/media/login.jpg": "./static/media/login.aefca5c91e1784ebb342.jpg",
+    "static/media/banner-right.svg": "./static/media/banner-right.db20d924d74f1b2d718e7de2d08e8855.svg",
+    "static/media/newDoctor1.svg": "./static/media/newDoctor1.a4a8bdccea06962bcacedf60bec1dec5.svg",
+    "static/media/why.svg": "./static/media/why.3da714e584e3f0b6e69da0a7952fda57.svg",
+    "static/media/graduation.svg": "./static/media/graduation.4e1c674b0342ef7ff3a1249442e7b3d6.svg",
+    "static/media/doctor4.svg": "./static/media/doctor4.48b9bddcee0c390f35b0ac2d39827f42.svg",
+    "static/media/logo.png": "./static/media/logo.fbdf92b822cd91afd175.png",
+    "static/media/mention.svg": "./static/media/mention.63fd6859993bf13396a8e40de1cc6bd4.svg",
+    "static/media/coughing_2.svg": "./static/media/coughing_2.864f3c1f3ec737625b198ce748f33ee2.svg",
+    "static/media/calendar.svg": "./static/media/calendar.25016b3118ffb2d12a638ec1c6bc5529.svg",
+    "static/media/undraw_medical_research_qg4d.svg": "./static/media/undraw_medical_research_qg4d.d2370e8dc1de0bde14cf52d2995f950d.svg",
+    "static/media/banner-left.svg": "./static/media/banner-left.d5a1cb9d2d0022f8880144e873c873c4.svg",
+    "static/media/doctor8.svg": "./static/media/doctor8.b004d7154f72bd5c70be1cd887af6d5f.svg",
+    "static/media/undraw_forms_78yw.svg": "./static/media/undraw_forms_78yw.35010e41c29b3371208cc76b36df208b.svg",
+    "index.html": "./index.html",
+    "main.700eab63.css.map": "./static/css/main.700eab63.css.map",
+    "main.b72574a2.js.map": "./static/js/main.b72574a2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.700eab63.css",
+    "static/js/main.b72574a2.js"
+  ]
+}
