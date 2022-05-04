@@ -1,0 +1,215 @@
+:root {
+  --bg:white;
+  --bg-accent: #484a4d;
+  --text-color: #dadce1;
+  --nav-size:60px;
+  --border:1px solid #afafaf;
+  --border-radius-dropdown:8px;
+  --border-radius-mi:8px 8px 0px 0px ;
+  --speed:400ms;
+}
+
+#nav_bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: -webkit-max-content;
+  min-height: -moz-max-content;
+  min-height: max-content;
+}
+
+.logo {
+  position: absolute;
+  width: 215px;
+  cursor: pointer;
+  left: 5%;
+  top: -10%;
+}
+
+.ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style-type: none;
+  margin: 0 4rem;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+.li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+
+.navBtn {
+  cursor: pointer;
+  display: block;
+  color: #333333;
+  text-align: center;
+  min-width: -webkit-max-content;
+  min-width: -moz-max-content;
+  min-width: max-content;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+.navBtn:hover {
+  color: #333333;
+  background-color: #F0F0F0;
+  text-decoration: none;
+}
+
+.btn_name {
+  margin: 0;
+  padding: 0;
+}
+
+.account {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.account_btn {
+  text-decoration: none;
+  position: absolute;
+  top: 25%;
+  right: 12%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: none;
+  margin-right: 15px;
+  background: -webkit-gradient(linear, left top, right top, from(#C271BD), to(#8A3585));
+  background: linear-gradient(90deg, #C271BD, #8A3585);
+  font-size: 1rem;
+  padding: 0.3rem 1rem;
+  color: white;
+  -webkit-box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.05);
+  border-radius: 0.8rem;
+}
+
+.account_btn:hover {
+  background: -webkit-gradient(linear, left top, right top, from(#C271BDe0), to(#8A3585e0));
+  background: linear-gradient(90deg, #C271BDe0, #8A3585e0);
+}
+
+.toggle_button {
+  margin-right: 1rem;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  display: none;
+}
+
+.navbar_active {
+  background-color: #F0F0F0;
+}
+
+.dropdown {
+  position: absolute;
+  top: 58px;
+  width: 200px;
+  -webkit-transform: translate(-45%);
+          transform: translate(-45%);
+  background-color: var(--bg);
+  border: var(--border);
+  border-radius: var(--border-radius-dropdown);
+  padding: 1rem;
+  overflow: hidden;
+  margin: 0px -20px;
+}
+
+.menu-item {
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: var(--border-radius-mi);
+  -webkit-transition: background var(--speed);
+  transition: background var(--speed);
+  padding: 0.5rem;
+}
+
+.menu-item:hover {
+  color: #333333;
+  background-color: #eeeeee;
+}
+
+@media (max-width: 1366px) {
+  .navBtn {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 1280px) {
+  .navBtn {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .navBtn {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .logo {
+    display: -ms-grid;
+    display: grid;
+    place-items: center;
+    width: 200px;
+    padding-top: 2%;
+    margin: auto -2rem;
+    top: -129%;
+  }
+  .ul {
+    display: none;
+  }
+  .toggle_button {
+    padding: 0.8rem 0;
+    display: block;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (orientation: portrait) {
+  .logo {
+    margin: auto -1rem;
+  }
+}
+/*# sourceMappingURL=Navbar.css.map */

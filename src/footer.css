@@ -1,0 +1,93 @@
+.contactUs{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 150%;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+
+.contactDescription{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+
+.footer_SearchBox{
+    background-color: white;
+    border-radius: 20px;
+    /* padding: 10px 30px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0px;
+    height: fit-content;
+  }
+  
+  .footer_SearchText{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    padding: 12px 35px;
+    color: rgba(46, 45, 45, 0.63);
+  }
+  .searchText{
+    font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 12px 35px;
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+  align-items: center;
+  color: #FFFFFF;
+  background-color: rgba(12, 12, 12, 1);
+  /* position: absolute;
+  right: 0px; */
+  border-radius: 20px;
+  }
+
+  .footerContact{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+  }
+
+  .footerDesc{
+      
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 150%;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+width: 200px;
+padding-left: 20px;
+  }
+  .buttonBox2{
+    border-radius:50%;
+    background-color:rgba(255, 255, 255, 0.1);;
+    padding:10px;
+    display: flex;
+    align-items: center;
+    margin: 0px 10px;
+    justify-content: center;
+}
